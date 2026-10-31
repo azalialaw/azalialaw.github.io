@@ -1,0 +1,1 @@
+var e=document.querySelector(`.hero__track`);e!==null&&new ResizeObserver(()=>{for(let t of e.getAnimations())t.updatePlaybackRate(t.playbackRate)}).observe(e);
